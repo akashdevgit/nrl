@@ -1,0 +1,56 @@
+@font-face {
+    font-family: ldm;
+    src: url(ldm.ttf);
+}
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/background.png");
+    background-size: contain;  /* or 'cover' depending on your needs */
+    height: 240px;
+    margin: 0 auto;  /* This centers the element itself */
+    width: 1288px;
+}
+.logincontainer{
+    border: 1px solid rgb(26, 210, 26);
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.nexus {
+    border: 1px solid rgb(26, 210, 26);
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+.nexus > ul {
+    list-style-type: none;
+}
+.nexus > ul > li {
+    padding: 10px;
+}
+.nexus > ul > li > a {
+    text-decoration: none;
+    color: rgb(26, 210, 26);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: rgb(26, 210, 26);
+    font-family: ldm;
+}
+
+.userpass {
+    padding: 20px;
+}
+.userinput {
+    padding: 20px;
+}
+
+.userinput > input {
+    color: black;
+}
